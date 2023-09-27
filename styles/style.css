@@ -1,0 +1,147 @@
+*, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: League Spartan;
+    background-color: linear-gradient(317deg, rgba(138, 67, 137, 0.00) 0%, #512051 93.57%, #512051 93.57%, #512051 93.57%);
+}
+
+h1 {
+    width: 445px;
+    text-align: left;
+    color: #512051;
+    font-family: League Spartan;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2px;   
+    margin-bottom: 15px;
+}
+
+.inner-container {
+    max-width: 100%;
+    width: 1440px;
+    height: 800px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    padding: 100px 165px;
+}
+
+.container-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-description p{
+    margin-bottom: 70px;
+    width: 455px;
+    height: 75px;
+    text-align: left;
+    color: #927B91;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -0.5px;
+}
+
+.container-stars {
+    margin-left: 125px;
+    margin-top: 45px;
+}
+
+.container-stars-bar {
+    width: 445px;
+    height: 56px;
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #F7F2F7;
+}
+
+.container-second-stars-bar {
+    margin-left: 45px;
+}
+
+.container-third-stars-bar {
+    margin-left: 95px;
+}
+
+.container-stars-bar img {
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.container-stars-bar p {
+    margin-left: 25px;
+    color: #512051;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.container-feedbacks {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.feedback-card-container {
+    height: 235px;
+    width: 350px;
+    padding:  40px 32px 0px 32px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 30px;
+    border-radius: 8px;
+    background: #512051;
+}
+
+.feedback-card {
+}
+
+.feedback-card-info {
+    margin-bottom: 32px;
+    display: flex;
+    align-items:center;
+}
+
+.feedback-card-info img {
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.feedback-card-names {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedback-card-status {
+    color: #EE69A4;;
+}
+
+.feedback-card-text {
+    text-align: start;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.second-feedback-card {
+    margin-top: 20px;
+}
+
+.third-feedback-card {
+    margin-top: 35px;
+}

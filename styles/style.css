@@ -14,7 +14,7 @@ body {
     top: 0;
     width: 580px;
     height: 360px;
-    background: url(/images/bg-pattern-top-desktop.svg);
+    background: url(images/bg-pattern-top-desktop.svg);
 }
 
 .outer-container::after {
@@ -24,7 +24,7 @@ body {
     bottom: 0;
     width: 1085px;
     height: 673px;
-    background: url(/images/bg-pattern-bottom-desktop.svg);
+    background: url(images/bg-pattern-bottom-desktop.svg);
 }
 
 h1 {
